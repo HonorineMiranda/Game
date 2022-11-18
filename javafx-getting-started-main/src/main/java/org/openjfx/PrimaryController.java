@@ -109,15 +109,13 @@ public class PrimaryController implements Initializable {
         checkLineSuccess("O", button2, button5, button8);
         checkLineSuccess("O", button3, button6, button9);
 
-
-
         }
 
 
-    @FXML
-    private void switchToSecondary() throws IOException {
-        App.setRoot("secondary");
-    }
+    //@FXML
+   // private void switchToSecondary() throws IOException {
+    //    App.setRoot("secondary");
+    //}
 
     private void checkLineSuccess(String player, Button btn1, Button btn2, Button btn3) {
         if ( btn1.getText().equals(player) &&

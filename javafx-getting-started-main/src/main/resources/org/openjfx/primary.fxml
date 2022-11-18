@@ -25,7 +25,6 @@
       <Label text="Tictactoe Game" />
       <TextField fx:id="myIpField"/>
       <Button layoutX="274.0" layoutY="361.0" mnemonicParsing="false" onAction="#restartGame" text="Restart" />
-      <Button fx:id="primaryButton" text="Switch to Secondary View" onAction="#switchToSecondary"/>
       <Text fx:id="winnerText" layoutX="182.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tic-Tac-Toe" textAlignment="CENTER" wrappingWidth="237.9443359375">
          <font>
             <Font size="39.0" />
